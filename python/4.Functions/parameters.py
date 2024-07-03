@@ -19,5 +19,5 @@ def add(n1:int, n2:int, n3:int): #parameters
 
 add("hello", "python","sai")
 
-#annotations are just clean coding parctice, still they will get string concatenated 
+#annotations are just clean coding practice and for our understanding only, still they will get string concatenated 
 
