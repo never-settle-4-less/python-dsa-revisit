@@ -8,3 +8,5 @@ n1 = int(input())
 n2 = int(input())
 
 check_divisibility(n1, n2)
+
+
