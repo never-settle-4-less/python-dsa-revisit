@@ -36,3 +36,7 @@ print(jfgjjjegkjrfgkjerhgkjrqhfhkjefdsbfvjdffbvjfdbvjkegfbvjsdbvjkdfbvdfbvefjvbd
 
 #no lenth limit, but not recommeneded to take large length identifiers 
 
+# keyword is inbuilt module which contains list of keywords present in python
+
+import keyword
+print(keyword.kwlist)
