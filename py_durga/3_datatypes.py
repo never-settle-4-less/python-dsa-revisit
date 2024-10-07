@@ -151,7 +151,25 @@ print(s1 * 4)
 print(type(s1))
 print(type(s2))
 
+print("=================")
 
+s = 'akhilesh'
+print(s[0].upper() + s[1:])
 
+print(s[:-1] + s[-1].upper())
+print("=================")
+print(s[0:len(s) - 1] + s[-1].upper())
+print("=================")
+print(s[0].upper() + s[1: len(s) - 1] + s[-1].upper())
 
+print(s + '10')
 
+# int * str - allowed
+# str * int - allowed
+# str * str - error 
+# str + int - error 
+# int + str - error 
+# str + str - allowed
+
+print(2 * 'ab' * 3)
+print('5' * 5)
