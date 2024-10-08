@@ -12,11 +12,11 @@ def reverse(num: int) -> int:
         last_digit = n % 10
         n = n //10
 
-        if(result > MAX // 10 or result == MAX//10 and last_digit >= MAX % 10):
-            return 0
+        #if(result > MAX // 10 or result == MAX//10 and last_digit >= MAX % 10):
+          #  return 0
         
-        if(result < MIN // 10 or result == MIN//10 and last_digit <= MIN % 10):
-            return 0
+        #if(result < MIN // 10 or result == MIN//10 and last_digit <= MIN % 10):
+          #  return 0
 
         #last_digit = n % 10
         result = (result * 10) + last_digit
