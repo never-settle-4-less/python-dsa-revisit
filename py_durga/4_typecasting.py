@@ -17,7 +17,7 @@ print(int("212")) # possible
 
 # print(int("10.5")) # not possible
 
-print("45")
+print(int("45"))
 
 print(float(10))
 # print(float(10 + 5j)) #not possible
