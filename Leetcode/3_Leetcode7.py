@@ -2,8 +2,8 @@
 
 def reverse(num: int) -> int:
 
-    MAX = 2147483647
-    MIN = -2147483648
+   # MAX = 2147483647
+   # MIN = -2147483648
 
     n = num
     result = 0
