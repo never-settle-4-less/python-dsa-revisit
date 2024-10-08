@@ -1,6 +1,6 @@
 # Given a number extract each digit of the number without converting it into string
 
-def extract_digits(num):
+def extract_digits(num: int) -> None:
     n = num
     while n > 0:
         last_digit = n % 10
