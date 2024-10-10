@@ -4,7 +4,7 @@
 # 7 - [1, 7]
 # 19 - [1, 19]
 
-def factors(num: int) -> list:
+def factors(num: int) -> list[int]:
 
     n = num
     result = []
